@@ -1,0 +1,112 @@
+* {
+    overflow: hidden;
+}
+
+body {
+    color: rgb(51, 255, 51);
+    text-align: center;
+    margin: 0;
+    background-color: black;
+    font-size: 14px;
+    font-family: "Ubuntu Mono";
+}
+
+h3 {
+    font-size: 16px;
+    color: rgb(255, 176, 0);
+}
+
+h4 {
+    font-size: 12px;
+    color: rgb(255, 176, 0);
+}
+
+.title {
+    padding: 20px;
+    font-family: "Orbitron";
+    font-size: 2.5em;
+    color: rgb(51, 255, 51);
+    margin: 0;
+}
+
+.title hr {
+    margin: 0;
+    background-color: rgb(51, 255, 51);
+    border: 2px solid rgb(51, 255, 51);
+    width: 100%;
+}
+
+.app {
+    display: flex;
+    justify-content: space-around;
+}
+
+.controls {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    width: 400px;
+}
+
+.instructions {
+    align-items: flex-start;
+}
+.instructions span {
+    color: rgb(255, 176, 0);
+}
+
+.instructions ul {
+    text-align: left;
+    list-style-type: none;
+}
+
+li {
+    margin: 5px 0;
+}
+
+.instructions form {
+    display: inline;
+    margin: 10px 0 ;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    border: none;
+}
+
+.instructions form input {
+    background-color: black;
+    border: 1px solid rgb(51, 255, 51);
+    color: rgb(51, 255, 51);
+}
+
+.instructions button {
+    display: inline;
+    border: none;
+    background-color: black;
+    color: rgb(51, 255, 51);
+}
+
+.data {
+    border: 2px dashed rgb(255, 176, 0);
+    text-transform: uppercase;
+}
+
+.data span {
+    color: rgb(255, 176, 0);
+}
+
+.acknowledgments {
+    margin: 20px 0;
+    float: bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.acknowledgments a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 10px;
+    color: rgb(51, 255, 51);
+    margin: 0 5px;
+}

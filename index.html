@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mars Rover Prework Exercise</title>
+  <!-- <script src="javascripts/app.js"></script> -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+  <script src="javascripts/Rover.js"></script>
+  <script src="javascripts/Terrain.js"></script>
+  <script src="javascripts/Samples.js"></script>
+  <script src="javascripts/app.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Orbitron:400,700,900|Ubuntu+Mono:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="title">
+    Mars Rover!
+    <hr>
+  </div>
+  <div class="app">
+    <div id="sketch-holder">
+      <!-- Sketch Goes Here! -->
+    </div>
+    <div class="controls">
+        <div class="instructions">
+          <h3>Move the Rover with</h3>
+          <ul>
+            <li>Up, Down, Left and Right Arrows to move forward, backward and turning the rover!</li>
+            <li>Opening the browser Console and passing:
+                <ul>
+                  <li>Rover[0].moveForward()</li>
+                  <li>Rover[0].moveBackward()</li>
+                  <li>Rover[0].turnLeft()</li>
+                  <li>Rover[0].turnRight()</li>
+                  <li>Rover[0].autoPilot(<span>str</span>)
+                    <ul>
+                      <li>Use a string of 'f','b','r' and 'l'</li>
+                    </ul>
+                  </li>
+                </ul>
+            </li>
+            <li>
+              <p>Or pass a string command here and the click run!</p>
+              <form action="" id="command">
+                <input type="text" name="str" placeholder="Input commands here!">
+              </form>
+              <button><i class='fas fa-power-off'></i></button>
+            </li>
+            <li>Anytime you want you can refresh the page to generate a new terrain!</li>
+            <li>Avoid hiting the rocks! Have fun!</li>
+          </ul>
+        </div>
+        <div class='data'>
+          <h3>Rover data</h3>
+          <p>Message: <span id="message"></span></p>
+          <p>Direction: <span id="dir"></span></p>
+          <p>Current Position: <span id="cpos"></span></p>
+          <p>Last Position: <span id="lpos"></span></p>
+        </div>
+        <div class="acknowledgments">
+          <h4>Acknowledgments</h4>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.ironhack.com/">Ironhack<i class="fas fa-code"></i></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://p5js.org/">p5.<i class="fab fa-js-square"></i></a>
+          <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/channel/UCvjgXvBlbQiydffZU7m1_aw">The Coding Train <i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+  </div>
+</body>
+</html>
